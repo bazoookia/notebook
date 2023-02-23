@@ -10,7 +10,7 @@ isShowTitleInHome: false
 
 <!-- ``` shell -->
 <!-- dnf install nodejs -->
-<!-- npm install yarn -->
+<!-- npm install --global yarn -->
 <!-- mkdir pandaria && cd pandaria && yarn init -->
 <!-- yarn add -D vuepress -->
 <!-- yarn add vuepress-theme-reco -->
