@@ -1,7 +1,8 @@
 ---
 title: How to Lie with Statistics
 date: 2020-06-10 20:52:53
-categories: Reading
+categories: 荣斋随笔
+author: 童荣
 tags:
 ---
 
