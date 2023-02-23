@@ -16,11 +16,12 @@ isShowTitleInHome: false
 <!-- yarn add vuepress-theme-reco -->
 <!-- ``` -->
 
-<!-- 2. 配置package.json -->
+2. 配置package.json
 <!-- ``` json -->
 <!-- "scripts": { -->
 <!--      "d": "vuepress dev notebook", -->
-<!--      "b": "vuepress build notebook" -->
+<!--      "b": "vuepress build notebook", -->
+<!--      "n": "bash notebook/new.sh" -->
 <!--   } -->
 <!-- ``` -->
 
