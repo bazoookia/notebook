@@ -25,6 +25,9 @@ isShowTitleInHome: false
 <!--      "p": "bash notebook/deploy.sh" -->
 <!--   } -->
 <!-- ``` -->
+<!-- ``` shell -->
+<!-- alias new='yarn n $(pwd)' -->
+<!-- ``` -->
 
 <!-- 3. 克隆git -->
 <!-- ``` shell -->
