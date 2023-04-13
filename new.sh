@@ -1,5 +1,12 @@
 work_dir=$1
-file_name=$2
+
+if [[ $# -lt 2 ]]
+then
+  read file_name
+else
+  file_name=$2
+fi
+
 suffix=${work_dir##*/}
 
 category=
