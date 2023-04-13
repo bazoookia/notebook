@@ -1,6 +1,5 @@
-
-read file_name
 work_dir=$1
+file_name=$2
 suffix=${work_dir##*/}
 
 category=
