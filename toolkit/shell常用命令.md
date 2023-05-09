@@ -97,6 +97,7 @@ tags:
   set scheduler-locking step	# set
   t xx							# 切换线程
   info t						# 查看线程
+  t find xx						# 查找
   ```
   
   * 信号
