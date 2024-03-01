@@ -4,7 +4,11 @@ set -e
 find notebook -name "*.md" -not -name "README.md" -exec md5sum {} \; > name_mapping.file
 while read file_md5 file_path_name
 do
-    mv ${file_path_name} `dirname ${file_path_name}`/${file_md5}.md
+    src=${file_path_name}
+    dst=`dirname ${file_path_name}`/${file_md5}.md
+    if [[ ${src} != ${dst} ]]; then
+        mv ${src} ${dst}
+    fi
 done < name_mapping.file
 
 # 生成静态文件
@@ -22,12 +26,13 @@ git commit -m 'deploy'
  
 git push -f git@github.com:bazoookia/bazoookia.github.io.git master
  
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
- 
 cd -
 
 while read file_md5 file_path_name
 do
-    mv `dirname ${file_path_name}`/${file_md5}.md ${file_path_name}
+    src=`dirname ${file_path_name}`/${file_md5}.md
+    dst=${file_path_name}
+    if [[ ${src} != ${dst} ]]; then
+        mv ${src} ${dst}
+    fi
 done < name_mapping.file
