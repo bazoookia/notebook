@@ -12,6 +12,7 @@ isShowTitleInHome: false
 <!-- dnf install nodejs -->
 <!-- npm install --global yarn -->
 <!-- mkdir pandaria && cd pandaria && yarn init -->
+<!-- yarn config set registry http://registry.npm.taobao.org/ -->
 <!-- yarn add -D vuepress -->
 <!-- yarn add vuepress-theme-reco -->
 <!-- ``` -->
@@ -21,7 +22,7 @@ isShowTitleInHome: false
 <!-- "scripts": { -->
 <!--      "d": "vuepress dev notebook", -->
 <!--      "b": "vuepress build notebook", -->
-<!--      "n": "bash notebook/new.sh" -->
+<!--      "n": "bash notebook/new.sh", -->
 <!--      "p": "bash notebook/deploy.sh" -->
 <!--   } -->
 <!-- ``` -->
