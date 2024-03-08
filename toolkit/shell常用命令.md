@@ -81,6 +81,15 @@ tags:
   git merge --abort # 终止merge
   ```
   
+  * http地址替换为ssh
+  
+  在~/.gitconfig中，增加如下配置
+  
+  ```
+  [url "ssh://git@XXX/"]
+      insteadOf = https://XXX/
+  ```
+  
 ## gdb ##
   * 汇编代码
 
