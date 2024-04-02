@@ -49,3 +49,10 @@ make bootstrap && make && make install
 | C-c @ C-c | hs-toggle-hiding |
 
 
+## fill ##
+
+介绍与折行相关的操作
+
+* auto-fill-mode: 自动折行（在markdown编辑下很有用）
+* fill-paragraph: 本段折行
+* fill-region: 选中文本折行
