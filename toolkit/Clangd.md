@@ -5,7 +5,10 @@ categories: toolkit
 author: 童荣
 tags:
 ---
-:::tips Clangd -- linux下最趁手的C++ LSP ::: <!-- more -->
+:::tip
+Clangd -- linux下最趁手的C++ LSP 
+:::
+<!-- more -->
 
 ## 为什么选Clangd ##
 

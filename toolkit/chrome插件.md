@@ -5,7 +5,7 @@ categories: toolkit
 author: 童荣
 tags:
 ---
-:::tips
+:::tip
 记录一些实用的chrome插件
 :::
 <!-- more -->
