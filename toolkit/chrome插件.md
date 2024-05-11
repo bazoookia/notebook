@@ -17,3 +17,7 @@ tags:
 ## Tab Manager Plus for Chrome ##
 
 好玩实用的标签页管理插件
+
+## awesome screenshot ##
+
+长截图网页插件，简单易用
